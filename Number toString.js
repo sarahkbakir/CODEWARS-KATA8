@@ -1,3 +1,3 @@
 // The code gives an error!
 
-a = 123.toString
+let a = Number(123).toString();

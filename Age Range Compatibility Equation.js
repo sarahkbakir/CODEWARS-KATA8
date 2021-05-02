@@ -18,7 +18,8 @@ function datingRange(age){
       let min = Math.floor((age/2)+7)
       let max = Math.floor((age-7)*2)
       
-      if(age >= 14) {
+      if(age > 14) {
+          
         return `${min}-${max}`
       } else {return `${Math.floor(age - 0.10 * age)}-${Math.floor(age + 0.10 * age)}`}
       

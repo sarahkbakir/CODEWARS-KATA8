@@ -20,6 +20,6 @@ function datingRange(age){
       
       if(age >= 14) {
         return `${min}-${max}`
-      } else {return `${Math.floor(age - 0.10 * age)}-${(age + 0.10 * age)}`}
+      } else {return `${Math.floor(age - 0.10 * age)}-${Math.floor(age + 0.10 * age)}`}
       
     }
